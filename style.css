@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+}
+.navbar img{
+    position: relative;
+    left:70px;
+    width: 72px;
+    height: 30px;
+}
+.line::before{
+    content: "";
+    width: 2px;
+    height: 40px;
+    background-color: #fff;
+    display: block;
+}
+.grow-list{
+    position: relative;
+    right: 15vh;
+    width: 100vh;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: #fff;
+    font-family: 'Poppins';
+    padding-top: 6px;
+}
+.navbar div button{
+    width: 130px;
+    height: 40px;
+    background-color: #BA0CC5;
+    color: #fff;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+}
+.hero{
+    background-image: url(assets/bg.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.hero-heading, .hero-description{
+    position: relative;
+    top: 23%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+.hero-heading{
+    font-size: 70px;
+}
+.hero-description{
+    font-family: 'Montserrat';
+    font-size: 23px;
+}
+
+.button-large{
+    position: relative;
+    left: 40%;
+    top: 30%;
+    width: 44vh;
+    height: 70px;
+    background-color: #BA0CC5;
+    color: #fff;
+    border-radius: 12px;
+    border: 1px solid #BA0CC5;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    
+}
